@@ -22,10 +22,6 @@ public class Main {
         addMultiplePosts(10);
         addMultipleLikes(10);
         databaseActions.printNames(30, 15);
-//        databaseActions.dropTable("Friends");
-//        databaseActions.dropTable("Users");
-//        databaseActions.dropTable("Posts");
-//        databaseActions.dropTable("Likes");
     }
 
     private static void addMultiplePosts(int postsNo) {
